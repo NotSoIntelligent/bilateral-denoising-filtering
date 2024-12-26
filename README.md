@@ -43,11 +43,11 @@ Bilateral filtering weight = (Range filtering weight) * (Domain filtering weight
 
 2. **Set Input Image Path**:
    Provide the path to the input YUV420p image:
-   - Example: `input_path = "D://input_image.yuv"`
+   - Example: `#define input_path "D://input_image.yuv"`
 
 3. **Set Output Image Path**:
    Provide the desired output YUV420p image path:
-   - Example: `output_path = "D://chroma_bilateral_filtered_img.yuv"`
+   - Example: `#define output_path "D://chroma_bilateral_filtered_img.yuv"`
    - Note: Ensure that the output file name ends with the `.yuv` extension. The output file will be created at the specified location.
 
 ---
